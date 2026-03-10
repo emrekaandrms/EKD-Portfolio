@@ -520,6 +520,24 @@ main {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.dual-grid > .section-card .section-heading {
+  grid-template-columns: 1fr;
+  align-items: start;
+  gap: 14px;
+}
+
+.dual-grid > .section-card .section-heading > * {
+  min-width: 0;
+}
+
+.dual-grid > .section-card .section-title {
+  max-width: 11ch;
+}
+
+.dual-grid > .section-card .section-description {
+  max-width: 100%;
+}
+
 .section-card {
   padding: 30px;
 }
@@ -547,6 +565,8 @@ main {
 .section-description {
   max-width: 32rem;
   margin: 0;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .contact-list,
