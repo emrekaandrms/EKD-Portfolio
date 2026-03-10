@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emre Kaan Durmus | Portfolio</title>
+  <meta
+    name="description"
+    content="Emre Kaan Durmus'un iki dilli, fütüristik ve animasyonlu yazılım portfolyo sitesi."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@500;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="noise"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#hero">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span class="brand-text">EMRE KAAN DURMUS</span>
+      </a>
+
+      <nav class="nav" id="nav"></nav>
+
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">
+        <span class="lang-pill active" data-lang-indicator="tr">TR</span>
+        <span class="lang-pill" data-lang-indicator="en">EN</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero reveal" id="hero">
+        <div class="hero-copy">
+          <p class="eyebrow" id="heroEyebrow"></p>
+          <h1 class="hero-name" id="heroName"></h1>
+          <p class="hero-role" id="heroRole"></p>
+          <p class="hero-summary" id="heroSummary"></p>
+
+          <div class="hero-actions">
+            <a class="primary-btn" href="#experience" id="heroPrimaryAction"></a>
+            <a class="secondary-btn" href="#contact" id="heroSecondaryAction"></a>
+          </div>
+
+          <div class="hero-stats" id="heroStats"></div>
+        </div>
+
+        <div class="hero-panel">
+          <div class="panel-header">
+            <span class="panel-dot"></span>
+            <span class="panel-dot"></span>
+            <span class="panel-dot"></span>
+          </div>
+          <div class="code-frame" id="heroCodeFrame"></div>
+        </div>
+      </section>
+
+      <section class="section-grid">
+        <aside class="sidebar reveal" id="contact">
+          <div class="section-card sticky-card">
+            <p class="section-tag" id="contactTag"></p>
+            <h2 class="section-title" id="contactTitle"></h2>
+            <div class="contact-list" id="contactList"></div>
+          </div>
+        </aside>
+
+        <div class="main-column">
+          <section class="section-card reveal" id="experience">
+            <p class="section-tag" id="experienceTag"></p>
+            <div class="section-heading">
+              <h2 class="section-title" id="experienceTitle"></h2>
+              <p class="section-description" id="experienceDescription"></p>
+            </div>
+            <div class="timeline" id="experienceTimeline"></div>
+          </section>
+
+          <section class="section-card reveal" id="projects">
+            <p class="section-tag" id="projectsTag"></p>
+            <div class="section-heading">
+              <h2 class="section-title" id="projectsTitle"></h2>
+              <p class="section-description" id="projectsDescription"></p>
+            </div>
+            <div class="projects-grid" id="projectsGrid"></div>
+          </section>
+
+          <section class="dual-grid">
+            <section class="section-card reveal" id="education">
+              <p class="section-tag" id="educationTag"></p>
+              <div class="section-heading">
+                <h2 class="section-title" id="educationTitle"></h2>
+                <p class="section-description" id="educationDescription"></p>
+              </div>
+              <div class="stack-list" id="educationList"></div>
+            </section>
+
+            <section class="section-card reveal" id="skills">
+              <p class="section-tag" id="skillsTag"></p>
+              <div class="section-heading">
+                <h2 class="section-title" id="skillsTitle"></h2>
+                <p class="section-description" id="skillsDescription"></p>
+              </div>
+              <div class="skill-groups" id="skillsGroups"></div>
+            </section>
+          </section>
+
+          <section class="dual-grid">
+            <section class="section-card reveal" id="interests">
+              <p class="section-tag" id="interestsTag"></p>
+              <div class="section-heading">
+                <h2 class="section-title" id="interestsTitle"></h2>
+                <p class="section-description" id="interestsDescription"></p>
+              </div>
+              <div class="interest-grid" id="interestsGrid"></div>
+            </section>
+
+            <section class="section-card reveal" id="references">
+              <p class="section-tag" id="referencesTag"></p>
+              <div class="section-heading">
+                <h2 class="section-title" id="referencesTitle"></h2>
+                <p class="section-description" id="referencesDescription"></p>
+              </div>
+              <div class="references-list" id="referencesList"></div>
+            </section>
+          </section>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
