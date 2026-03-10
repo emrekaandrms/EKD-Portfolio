@@ -3,39 +3,39 @@ const portfolioData = {
     nav: [
       { id: "experience", label: "Deneyim" },
       { id: "projects", label: "Projeler" },
-      { id: "education", label: "Egitim" },
+      { id: "education", label: "Eğitim" },
       { id: "skills", label: "Yetenekler" },
-      { id: "interests", label: "Ilgi Alanlari" },
+      { id: "interests", label: "İlgi Alanları" },
       { id: "references", label: "Referanslar" },
-      { id: "contact", label: "Iletisim" }
+      { id: "contact", label: "İletişim" }
     ],
     hero: {
-      eyebrow: "Yazilim, e-ticaret ve operasyon sistemleri",
-      name: "Emre Kaan Durmus",
+      eyebrow: "Yazılım, e-ticaret ve operasyon sistemleri",
+      name: "Emre Kaan Durmuş",
       role: "Project Manager | Software Tester | Business Analyst | Front-End Developer",
       summary:
-        "E-ticaret operasyonlari, ERP sistemleri, odeme entegrasyonlari, Shopify projeleri ve uretim odakli yazilim akislari uzerinde calisan; teknik ve operasyonel taraflari bir araya getiren cok disiplinli bir profesyonel.",
+        "E-ticaret operasyonları, ERP sistemleri, ödeme entegrasyonları, Shopify projeleri ve üretim odaklı yazılım akışları üzerinde çalışan; teknik ve operasyonel tarafları bir araya getiren çok disiplinli bir profesyonel.",
       primaryAction: "Deneyimi incele",
-      secondaryAction: "Iletisim bilgileri",
+      secondaryAction: "İletişim bilgileri",
       stats: [
         { value: "4+", label: "Profesyonel rol" },
         { value: "9", label: "CV'deki ana proje" },
-        { value: "2", label: "Dil secenegi" }
+        { value: "2", label: "Dil seçeneği" }
       ],
-      panelTitle: "Odak Alanlari",
-      panelDescription: "CV'deki teknik ve operasyonel gucler, etiketli ve okunabilir bir ozet halinde.",
+      panelTitle: "Odak Alanları",
+      panelDescription: "CV'deki teknik ve operasyonel güçler, etiketli ve okunabilir bir özet halinde.",
       codeLines: [
-        { label: "Proje Yonetimi", detail: "Cross-functional delivery ve operasyon koordinasyonu", level: 92 },
-        { label: "E-Ticaret Sistemleri", detail: "Shopify, odeme sistemleri ve marketplace operasyonlari", level: 90 },
-        { label: "ERP ve Uretim", detail: "Stok, siparis, shipping ve operasyon modulleri", level: 95 },
-        { label: "Front-End Stack", detail: "React, TypeScript, Next.js ve arayuz kurgusu", level: 88 },
-        { label: "Otomasyon", detail: "Python, ZPL, QR ve render pipeline cozumleri", level: 86 },
-        { label: "Global Operasyon", detail: "TR ve U.S. market setup ve entegrasyonlari", level: 84 }
+        { label: "Proje Yönetimi", detail: "Cross-functional delivery ve operasyon koordinasyonu", level: 92 },
+        { label: "E-Ticaret Sistemleri", detail: "Shopify, ödeme sistemleri ve marketplace operasyonları", level: 90 },
+        { label: "ERP ve Üretim", detail: "Stok, sipariş, shipping ve operasyon modülleri", level: 95 },
+        { label: "Front-End Stack", detail: "React, TypeScript, Next.js ve arayüz kurgusu", level: 88 },
+        { label: "Otomasyon", detail: "Python, ZPL, QR ve render pipeline çözümleri", level: 86 },
+        { label: "Global Operasyon", detail: "TR ve U.S. market setup ve entegrasyonları", level: 84 }
       ]
     },
     contact: {
-      tag: "Baglanti",
-      title: "Iletisim",
+      tag: "Bağlantı",
+      title: "İletişim",
       items: [
         { label: "Adres", value: "Ataken Mahallesi, 241 Sokak, No:5 Dumankaya Konsept Sitesi C Blok, 34307" },
         { label: "Telefon", value: "+90 531 968 96 66", href: "tel:+905319689666" },
@@ -46,23 +46,23 @@ const portfolioData = {
       tag: "Kariyer",
       title: "Profesyonel Deneyim",
       description:
-        "Yazilim testinden operasyonel raporlamaya, front-end gelistirmeden proje yonetimine uzanan deneyimlerin tamamini zaman cizelgesi formatinda sunar.",
+        "Yazılım testinden operasyonel raporlamaya, front-end geliştirmeden proje yönetimine uzanan deneyimlerin tamamını zaman çizelgesi formatında sunar.",
       items: [
         {
           company: "Allegro",
-          period: "Kasim 2023 - Guncel",
+          period: "Kasım 2023 — Güncel",
           role: "Project Manager",
           bullets: [
-            "Fonksiyonlar arasi ekipleri yoneterek karmasik e-ticaret projelerini zamaninda ve butce dahilinde teslim etti.",
-            "Proje takvimlerini, paydas iletisimini ve kaynak planlamasini yuruterek operasyonel verimliligi sagladi.",
-            "Altin sektorune ozel yazilim gelistirmelerini; RFID tabanli stok takibi ve is akisi optimizasyonu dahil olmak uzere gelistirdi.",
-            "Kargo entegrasyonlarini, render otomasyonunu ve gelismis e-ticaret odeme sistemlerini devreye aldi.",
-            "Shopify tema ozellestirme, uygulama gelistirme, SEO yonetimi ve pazarlama calismalari gibi platform projelerini yonetti.",
-            "ABD pazarindaki operasyonlari; odeme kanallari ve Amazon, Etsy, Walmart gibi platform hesaplari dahil olacak sekilde kurdu ve yonetti."
+            "Fonksiyonlar arası ekipleri yöneterek karmaşık e-ticaret projelerini zamanında ve bütçe dahilinde teslim etti.",
+            "Proje takvimlerini, paydaş iletişimini ve kaynak planlamasını yürüterek operasyonel verimliliği sağladı.",
+            "Altın sektörüne özel yazılım geliştirmelerini; RFID tabanlı stok takibi ve iş akışı optimizasyonu dahil olmak üzere geliştirdi.",
+            "Kargo entegrasyonlarını, render otomasyonunu ve gelişmiş e-ticaret ödeme sistemlerini devreye aldı.",
+            "Shopify tema özelleştirme, uygulama geliştirme, SEO yönetimi ve pazarlama çalışmaları gibi platform projelerini yönetti.",
+            "ABD pazarındaki operasyonları; ödeme kanalları ve Amazon, Etsy, Walmart gibi platform hesapları dahil olacak şekilde kurdu ve yönetti."
           ],
           subgroups: [
             {
-              title: "Kullanilan Teknolojiler ve Uygulamalar",
+              title: "Kullanılan Teknolojiler ve Uygulamalar",
               pills: [
                 "Docker",
                 "Node.js",
@@ -95,134 +95,134 @@ const portfolioData = {
               ]
             },
             {
-              title: "Uzmanlik Alanlari",
+              title: "Uzmanlık Alanları",
               bullets: [
-                "Altin stok yonetimi yazilimlari ve RFID ile urun takibi gelistirme konusunda yogun deneyim.",
-                "Altin uretim surecindeki is akislari ve operasyon tanimlarini kurgulama.",
-                "Uretim ve teslimat verimliligini artirmak icin render otomasyonu ve kargo entegrasyonlari yonetimi.",
-                "Odeme orkestrasyon araclari entegrasyonu ve is ortakligi sureclerinin yurutulmesi.",
-                "Shopify tema ozellestirme, uygulama gelistirme, SEO yonetimi ve pazarlama kampanyalari yurutulmesi.",
-                "Meta Business reklam kampanyalari, Google Ads ve e-posta pazarlama stratejilerinde uzmanlasma.",
-                "ABD pazarinda sirket kurulumlari, odeme kanallari ve banka hesaplari acilisi; PayPal, Amazon, Etsy ve Walmart hesap yonetimi.",
-                "Etsy Commercial Access ve Standard API'leri ile web uygulamalari gelistirme.",
-                "Shipentegra sistemleri ve API erisimleri uzerinden entegrator yonetimi.",
-                "Coklu magaza yonetimi icin SMTP, mail hosting, IVR sistemleri ve IP spoofing konfigrasyonlari.",
-                "SMS ve e-posta servisleri, cagri sistemleri ve pazarlama otomasyonunun denetlenmesi."
+                "Altın stok yönetimi yazılımları ve RFID ile ürün takibi geliştirme konusunda yoğun deneyim.",
+                "Altın üretim sürecindeki iş akışları ve operasyon tanımlarını kurgulama.",
+                "Üretim ve teslimat verimliliğini artırmak için render otomasyonu ve kargo entegrasyonları yönetimi.",
+                "Ödeme orkestrasyon araçları entegrasyonu ve iş ortaklığı süreçlerinin yürütülmesi.",
+                "Shopify tema özelleştirme, uygulama geliştirme, SEO yönetimi ve pazarlama kampanyaları yürütülmesi.",
+                "Meta Business reklam kampanyaları, Google Ads ve e-posta pazarlama stratejilerinde uzmanlaşma.",
+                "ABD pazarında şirket kurulumları, ödeme kanalları ve banka hesapları açılışı; PayPal, Amazon, Etsy ve Walmart hesap yönetimi.",
+                "Etsy Commercial Access ve Standard API'leri ile web uygulamaları geliştirme.",
+                "Shipentegra sistemleri ve API erişimleri üzerinden entegratör yönetimi.",
+                "Çoklu mağaza yönetimi için SMTP, mail hosting, IVR sistemleri ve IP spoofing konfigürasyonları.",
+                "SMS ve e-posta servisleri, çağrı sistemleri ve pazarlama otomasyonunun denetlenmesi."
               ]
             }
           ]
         },
         {
           company: "Glamira",
-          period: "Subat 2021 - Ekim 2023",
+          period: "Şubat 2021 - Ekim 2023",
           role: "Software Tester and Business Analyst",
           bullets: [
-            "Magento CMS icin manuel testler yapti, eklenti kurulumlarini gerceklestirdi ve test senaryolari olusturdu.",
-            "Mucevher uretim sureclerini analiz etti, is akislari olusturdu ve Magento icin operasyon dokumanlari hazirladi.",
-            "UI/UX guncellemeleri, mantiksal iyilestirmeler, cron job'lar ve CMS bloklari/sayfalari konfigure etti.",
-            "Faturalama ve credit memo sureclerini yonetti, penetration testleri gerceklestirdi.",
-            "Odeme sistemleri ve odeme gecitlerini entegre etti, odeme orkestrasyon araclarini yonetti ve uretim veritabanlarinda sorgular calistirdi.",
-            "Lojistik ve depo entegrasyonlarini ozel API'ler ve RFID cozumleriyle yonetti.",
-            "Musteri hizmetleri helpdesk kurallarini tasarladi ve uyguladi; proje yonetim sistemlerini yonetti.",
-            "3D urun tarayici entegrasyonlarina liderlik etti, projelerin PWA versiyonlarini hazirladi ve yapay zeka destekli chatbot gelistirmelerini destekledi.",
-            "Ic veri yedeklemeleri, Google Workspace, GA4 veri akisleri ve fraud protection sistemlerini yonetti."
+            "Magento CMS için manuel testler yaptı, eklenti kurulumlarını gerçekleştirdi ve test senaryoları oluşturdu.",
+            "Mücevher üretim süreçlerini analiz etti, iş akışları oluşturdu ve Magento için operasyon dokümanları hazırladı.",
+            "UI/UX güncellemeleri, mantıksal iyileştirmeler, cron job'lar ve CMS blokları/sayfaları konfigure etti.",
+            "Faturalama ve credit memo süreçlerini yönetti, penetration testleri gerçekleştirdi.",
+            "Ödeme sistemleri ve ödeme geçitlerini entegre etti, ödeme orkestrasyon araçlarını yönetti ve üretim veritabanlarında sorgular çalıştırdı.",
+            "Lojistik ve depo entegrasyonlarını özel API'ler ve RFID çözümleriyle yönetti.",
+            "Müşteri hizmetleri helpdesk kurallarını tasarladı ve uyguladı; proje yönetim sistemlerini yönetti.",
+            "3D ürün tarayıcı entegrasyonlarına liderlik etti, projelerin PWA versiyonlarını hazırladı ve yapay zekâ destekli chatbot geliştirmelerini destekledi.",
+            "İç veri yedeklemeleri, Google Workspace, GA4 veri akışları ve fraud protection sistemlerini yönetti."
           ]
         },
         {
           company: "Huawei",
-          period: "Ocak 2019 - Kasim 2019",
+          period: "Ocak 2019 - Kasım 2019",
           role: "Monitoring and Reporting Analyst",
           bullets: [
-            "Servis seviyelerini izledi ve sorun kaliplarini tespit etmek icin musteri destek metriklerini analiz etti.",
-            "Gelismis makrolar ve buyuk veri tablolarini kullanarak Excel tabanli operasyonel raporlar olusturdu.",
-            "Performans ve problemler hakkinda operasyon direktorlerini bilgilendirmek icin sunumlar hazirladi."
+            "Servis seviyelerini izledi ve sorun kalıplarını tespit etmek için müşteri destek metriklerini analiz etti.",
+            "Gelişmiş makrolar ve büyük veri tablolarını kullanarak Excel tabanlı operasyonel raporlar oluşturdu.",
+            "Performans ve problemler hakkında operasyon direktörlerini bilgilendirmek için sunumlar hazırladı."
           ]
         },
         {
           company: "Sesli Harfler Agency",
-          period: "Mayis 2018 - Eylul 2018",
+          period: "Mayıs 2018 - Eylül 2018",
           role: "Front-End Developer Trainee",
           bullets: [
-            "Ajans projelerindeki hatalari debug ederek duzeltti ve yeni ozellikler gelistirdi.",
-            "Icerik tasarimi odakli React ve Drupal CMS projelerinde gorev aldi.",
-            'MVC tabanli projelerde veritabani, sayfalama sistemleri ve "account" sureclerini yeniden tasarladi.'
+            "Ajans projelerindeki hataları debug ederek düzeltti ve yeni özellikler geliştirdi.",
+            "İçerik tasarımı odaklı React ve Drupal CMS projelerinde görev aldı.",
+            'MVC tabanlı projelerde veritabanı, sayfalama sistemleri ve "account" süreçlerini yeniden tasarladı.'
           ]
         }
       ]
     },
     projects: {
-      tag: "Yapilar",
-      title: "One Cikan Projeler",
+      tag: "Yapılar",
+      title: "Öne Çıkan Projeler",
       description:
-        "CV'deki proje listesinin tamamini, teknik odak ve etki baglamiyla birlikte kart yapisinda sunar.",
+        "CV'deki proje listesinin tamamını, teknik odak ve etki bağlamıyla birlikte kart yapısında sunar.",
       items: [
         {
-          title: "Tum modulleriyle ERP sistemi",
+          title: "Tüm modülleriyle ERP sistemi",
           tag: "ERP / Operations",
-          description: "Kargo, stok, siparis ve operasyon modullerini kapsayan tam kapsamli ERP sistemi."
+          description: "Kargo, stok, sipariş ve operasyon modüllerini kapsayan tam kapsamlı ERP sistemi."
         },
         {
-          title: "Yapay zeka destekli musteri destek uygulamasi",
+          title: "Yapay zekâ destekli müşteri destek uygulaması",
           tag: "AI / Web App",
-          description: "Anvil ve ChatGPT API token kullanilarak gelistirilen otomatik musteri destek cevaplama web uygulamasi."
+          description: "Anvil ve ChatGPT API token kullanılarak geliştirilen otomatik müşteri destek cevaplama web uygulaması."
         },
         {
           title: "ERP entegre QR kod okuyucu",
           tag: "Production / QR",
-          description: "Uretim adimlarini takip etmek icin ERP sistemine tam entegre calisan QR kod okuyucu uygulamasi."
+          description: "Üretim adımlarını takip etmek için ERP sistemine tam entegre çalışan QR kod okuyucu uygulaması."
         },
         {
-          title: "Zebra printer icin ZPL uygulamasi",
+          title: "Zebra printer için ZPL uygulaması",
           tag: "Python / ZPL",
-          description: "Python ve Zebra Programming Language kullanilarak gelistirilen Zebra yazici uygulamasi."
+          description: "Python ve Zebra Programming Language kullanılarak geliştirilen Zebra yazıcı uygulaması."
         },
         {
-          title: "Mucevher urunleri icin render farm sistemi",
+          title: "Mücevher ürünleri için render farm sistemi",
           tag: "Automation / Rendering",
-          description: "Mucevher urunlerine yonelik render farming sistemi ve ona bagli uygulama."
+          description: "Mücevher ürünlerine yönelik render farming sistemi ve ona bağlı uygulama."
         },
         {
-          title: "Native Shopify entegrasyon uygulamasi",
+          title: "Native Shopify entegrasyon uygulaması",
           tag: "Shopify / API",
-          description: "Commercial API erisimi odakli native Shopify uygulamasi."
+          description: "Commercial API erişimi odaklı native Shopify uygulaması."
         },
         {
-          title: "Etsy icin residential proxy uygulamasi",
+          title: "Etsy için residential proxy uygulaması",
           tag: "Python / Proxy",
-          description: "Python ve IPRoyal kullanilarak Etsy odakli residential proxy uygulamasi."
+          description: "Python ve IPRoyal kullanılarak Etsy odaklı residential proxy uygulaması."
         },
         {
-          title: "Tarayicida 3D urun goruntuleme",
+          title: "Tarayıcıda 3D ürün görüntüleme",
           tag: "Three.js / Canvas",
-          description: "HTML canvas ve Three.js kullanilarak tarayicida gelistirilmis 3D urun goruntuleme uygulamasi."
+          description: "HTML canvas ve Three.js kullanılarak tarayıcıda geliştirilmiş 3D ürün görüntüleme uygulaması."
         },
         {
-          title: "Yuzuk olcusu bulma icin AR uygulamasi",
+          title: "Yüzük ölçüsü bulma için AR uygulaması",
           tag: "AR / Product Experience",
-          description: "Yuzuk olcusunu bulmaya yardimci augmented reality uygulamasi."
+          description: "Yüzük ölçüsünü bulmaya yardımcı augmented reality uygulaması."
         }
       ]
     },
     education: {
-      tag: "Akademik Altyapi",
-      title: "Egitim",
+      tag: "Akademik Altyapı",
+      title: "Eğitim",
       description:
-        "Teknik altyapi ile yonetsel bakis acisini birlestiren iki farkli program uzerinden sekillenen egitim gecmisi.",
+        "Teknik altyapı ile yönetsel bakış açısını birleştiren iki farklı program üzerinden şekillenen eğitim geçmişi.",
       items: [
         {
           school: "Anadolu University",
-          meta: "Eylul 2021 - Guncel | Program: Management Information Systems",
+          meta: "Eylül 2021 - Güncel | Program: Management Information Systems",
           points: [
-            "Veri isleme ve kurumsal davranislara yonelik yonetsel perspektif alaninda uzmanlasti.",
+            "Veri işleme ve kurumsal davranışlara yönelik yönetsel perspektif alanında uzmanlaştı.",
             "GANO: 3.37 / 4"
           ]
         },
         {
           school: "Trakya University",
-          meta: "Eylul 2016 - Eylul 2018 | Program: Computer Programming",
+          meta: "Eylül 2016 - Eylül 2018 | Program: Computer Programming",
           points: [
-            "Yazilim gelistirme ilkeleri ve temelleri konusunda guclu bir altyapi kazandi.",
-            "Proje gelistirme odagiyla mezuniyet doneminde sinifinin ilk %10'u icinde yer aldi."
+            "Yazılım geliştirme ilkeleri ve temelleri konusunda güçlü bir altyapı kazandı.",
+            "Proje geliştirme odağıyla mezuniyet döneminde sınıfının ilk %10'u içinde yer aldı."
           ]
         }
       ]
@@ -231,7 +231,7 @@ const portfolioData = {
       tag: "Yetkinlikler",
       title: "Teknik ve Operasyonel Yetenekler",
       description:
-        "CV'deki teknoloji ve yetenek basliklari; yazilim, veri, e-ticaret ve karar alma odakli gruplar halinde duzenlendi.",
+        "CV'deki teknoloji ve yetenek başlıkları; yazılım, veri, e-ticaret ve karar alma odaklı gruplar halinde düzenlendi.",
       groups: [
         {
           title: "Programming Languages & Frameworks",
@@ -302,13 +302,13 @@ const portfolioData = {
     },
     interests: {
       tag: "Disiplini Besleyen Alanlar",
-      title: "Ilgi Alanlari",
+      title: "İlgi Alanları",
       description:
-        "Teknik merak ile yaratici ve performans odakli hobilerin bir araya geldigi alanlar.",
+        "Teknik merak ile yaratıcı ve performans odaklı hobilerin bir araya geldiği alanlar.",
       items: [
         {
-          title: "Muzik",
-          description: "Piyano, film muzikleri; Tulpar ve Damocles Band'de gitar."
+          title: "Müzik",
+          description: "Piyano, film müzikleri; Tulpar ve Damocles Band'de gitar."
         },
         {
           title: "Teknoloji",
@@ -321,23 +321,23 @@ const portfolioData = {
       ]
     },
     references: {
-      tag: "Guven Agi",
+      tag: "Güven Ağı",
       title: "Referanslar",
       description:
         "CV'de yer alan profesyonel referanslar birebir korunarak listelendi.",
       items: [
         {
-          name: "Nilay Balkanli",
+          name: "Nilay Balkanlı",
           role: "Project Director at Allegro",
           phone: "+90 532 405 11 35"
         },
         {
-          name: "Sukru Can",
+          name: "Şükrü Can",
           role: "Web Project Manager, Glamira",
           phone: "+359 88 776 8999"
         },
         {
-          name: "Inanc Tutku Sarac",
+          name: "İnanç Tutku Saraç",
           role: "Project Manager, Huawei",
           phone: "+90 544 828 32 28"
         }
@@ -356,7 +356,7 @@ const portfolioData = {
     ],
     hero: {
       eyebrow: "Software, e-commerce, and operational systems",
-      name: "Emre Kaan Durmus",
+      name: "Emre Kaan Durmuş",
       role: "Project Manager | Software Tester | Business Analyst | Front-End Developer",
       summary:
         "A multidisciplinary professional connecting technical execution with operational strategy across e-commerce operations, ERP systems, payment integrations, Shopify projects, and production-focused software workflows.",
@@ -672,17 +672,17 @@ const portfolioData = {
         "Professional references listed exactly as provided in the CV.",
       items: [
         {
-          name: "Nilay Balkanli",
+          name: "Nilay Balkanlı",
           role: "Project Director at Allegro",
           phone: "+90 532 405 11 35"
         },
         {
-          name: "Sukru Can",
+          name: "Şükrü Can",
           role: "Web Project Manager, Glamira",
           phone: "+359 88 776 8999"
         },
         {
-          name: "Inanc Tutku Sarac",
+          name: "İnanç Tutku Saraç",
           role: "Project Manager, Huawei",
           phone: "+90 544 828 32 28"
         }
